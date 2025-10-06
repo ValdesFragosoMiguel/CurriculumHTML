@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Curriculum</title>
+  <link rel="stylesheet" href="cv.css">
+</head>
+<body>
+
+<header>
+  <section>
+    <div>
+      <h2><i>Miguel Angel Valdes Fragoso</i></h2>
+      <h2><i>Ingeniería en Sistemas Computacionales</i></h2>
+      <h2><i>Programador Web</i></h2>
+    </div>
+  </section>
+</header>
+
+<main>
+
+  <section class="bg1">
+    <div>
+      <h2><u>Experiencia Profesional</u></h2>
+      <p>Creación de pagina web con la finalidad de mejorar inventario para el laboratorio escolar <br>
+      Creación de base de datos en la preparatoria usando acces</p>
+    </div>
+  </section>
+
+  <section class="bg2">
+    <div>
+      <h2><i>Formación Académica</i></h2>
+      <p>
+        Secundaria: Presidente Salvador Allende (2016-2019)<br>
+        Preparatoria: Vicente Ramón Saldaña (2019-2022)<br>
+        Universidad: Tecnológico de Iztapalapa (2023-Actualidad)
+      </p>
+    </div>
+  </section>
+
+  <section class="bg3">
+    <div>
+      <h1><i>Apps</i></h1>
+
+      <button id="suma">Suma</button>
+      <button id="resta">Resta</button>
+      <button id="multiplicacion">Multiplicación</button>
+
+      <script>
+        document.getElementById("suma").onclick = function() {
+          let a = parseInt(prompt("Ingresa un número"));
+          let b = parseInt(prompt("Ingresa otro número"));
+          confirm("Los números ingresados fueron: " + a + " y " + b);
+          let c = a + b;
+          alert("La suma de los números es: " + c);
+        }
+
+        document.getElementById("resta").onclick = function() {
+          let d = parseInt(prompt("Ingresa un número"));
+          let e = parseInt(prompt("Ingresa otro número"));
+          confirm("Los números ingresados fueron: " + d + " y " + e);
+          let f = d - e;
+          alert("La resta de los números es: " + f);
+        }
+
+        document.getElementById("multiplicacion").onclick = function() {
+          let g = parseInt(prompt("Ingresa un número"));
+          let h = parseInt(prompt("Ingresa otro número"));
+          confirm("Los números ingresados fueron: " + g + " y " + h);
+          let i = g * h;
+          alert("El resultado de la multiplicación es: " + i);
+        }
+      </script>
+
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <section class="bg4">
+    <div>
+      <h2><i>Hobbies</i></h2>
+      <ol>
+        <li><u>Jugar Frontón</u></li>
+        <li><u>Correr</u></li>
+        <li><u>Escuchar música</u></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="bg5">
+    <div>
+      <h3><i>IG: miguel21fragoso  </i></h3>
+      <h3><i>GitHub: <a href="https://github.com/ValdesFragosoMiguel">ValdesFragosoMiguel  </a></i></h3>
+      <h3><i>Correo: migue21fragoso@gmail.com  </i></h3>
+    </div>
+  </section>
+</footer>
+
+</body>
+</html>
+
